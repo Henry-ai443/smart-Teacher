@@ -6,7 +6,7 @@ import axios from 'axios';
  * - withCredentials ensures HTTP-only auth cookies are sent with every request.
  */
 const api = axios.create({
-  baseURL: 'https://smart-teacher-api.onrender.com',
+  baseURL: 'https://smart-teacher-api.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
